@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+
+-<toast launch="developer-defined-string">
+
+
+  -<visual>
+
+
+    -<binding template="ToastGeneric">
+
+      <text>Erase your PC</text>
+
+      <image src="C:\Users\Varsha.Ravindra\Pictures\clipart-mr-bean-4.jpg" placement="appLogoOverride"/>
+
+      <text>Would you like to erase your PC?</text>
+
+    </binding>
+
+  </visual>
+
+
+  -<actions>
+
+    <action activationType="foreground" arguments="launch-app" content="Erase now"/>
+
+    <action activationType="background" arguments="dismiss" content="Dismiss"/>
+
+  </actions>
+
+</toast>
+
+"<toast launch=\"developer-defined-string\">
+  <visual>
+    <binding template =\"ToastGeneric\">
+      <text>Erase your PC</text>
+      <image placement=\"appLogoOverride\" src=\"C:\\Users\\Varsha.Ravindra\\Pictures\\clipart-mr-bean-4.jpg\" />
+      <text>Would you like to erase your PC?</text>
+    </binding>
+  </visual>
+  <actions>
+    
+    <input id="snoozeTime" type="selection" defaultInput="15">
+      <selection id="15" content="15 minutes"/>
+      <selection id="60" content="1 hour"/>
+      <selection id="240" content="4 hours"/>
+      <selection id="1440" content="1 day"/>
+    </input>
+
+    <action content="Snooze" imageUri="ms-appx:///Assets/ToastButtonIcons/Snooze.png" arguments="snooze" activationType="background"/>
+    <action content="Dismiss" imageUri="ms-appx:///Assets/ToastButtonIcons/Dismiss.png" arguments="dismiss" activationType="background"/>
+    <action content="Erase Now" imageUri="ms-appx:///Assets/ToastButtonIcons/Complete.png" arguments="launch-app" activationType="foreground"/>
+    
+    <action content=\"Erase now\" arguments=\"launch-app\" activationType=\"foreground\" />
+    <action content=\"Dismiss\" arguments=\"dismiss\" activationType=\"background\" />
+  </actions>
+</toast>"

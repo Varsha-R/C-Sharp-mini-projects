@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<toast launch="developer-defined-string">
+  <visual>
+    <binding template="ToastGeneric">
+      <text>Erase your PC</text>
+      <image src="D:\Wallpapers\photo-1508970057347-0524a45ebdff.jfif" placement="appLogoOverride"/>
+      <text>Would you like to erase your PC?</text>
+    </binding>
+  </visual>
+  <actions>
+    <input defaultInput="15" type="selection" id="inputTime">
+      <selection id="15" content="15 minutes"/>
+      <selection id="60" content="1 hour"/>
+      <selection id="240" content="4 hours"/>
+      <selection id="1440" content="1 day"/>
+    </input>
+    <action content="Snooze" activationType="background" arguments="snooze" imageUri="ms-appx:///Assets/Snooze.png"/>
+    <action content="Erase now" activationType="foreground" arguments="launch-app" imageUri="ms-appx:///Assets/Start-Erase.png"/>
+    <action content="Dismiss" activationType="background" arguments="dismiss" imageUri="ms-appx:///Assets/Dismiss.png"/>
+  </actions>
+</toast>
