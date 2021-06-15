@@ -1,0 +1,240 @@
+﻿{
+  "Version": "1.0.0.0",
+  "Settings": [
+    {
+      "GroupId": "68acf786-288c-4ec2-a4c9-cd6a2cc4bb53",
+      "GroupNameValue": "Accessibility",
+      "GroupNameKey": "ACCESSIBILITY",
+      "GroupDescriptionValue": "High Contrast, Sticky keys, Toggle keys, Color filters, Magnifier",
+      "GroupDescriptionKey": "HIGH_CONTRAST_STICKY_KEYS_TOGGLE_KEYS_COLOR_FILTERS_MAGNIFIER",
+      "Selected": "true",
+      "SubSettings": [
+
+        {
+          "SettingId": "9fbd1757-55fe-440f-ad3d-4bc61ad51385", //High Contrast
+          "SettingNameKey": "HIGH_CONTRAST",
+          "SettingNameValue": "High Contrast",
+          "SettingDescriptionKey": "HIGH_CONTRAST",
+          "SettingDescriptionValue": "High Contrast",
+          "selected": "true"
+        },
+
+        {
+          "SettingId": "8gfn9238-21gh-025m-ws7r-5cd72be62486", // Filter Key
+          "SettingNameKey": "FILTER_KEY",
+          "SettingNameValue": "Filter Key",
+          "SettingDescriptionKey": "FILTER_KEY",
+          "SettingDescriptionValue": "Filter Key",
+          "Selected": "true"
+        },
+        {
+          "SettingId": "83f7b817-5b7e-411d-851b-33b4b5f1f924", //Toggle keys
+          "SettingNameKey": "TOGGLE_KEYS",
+          "SettingNameValue": "Toggle Keys",
+          "SettingDescriptionKey": "TOGGLE_KEYS",
+          "SettingDescriptionValue": "Toggle Keys",
+          "Selected": "true"
+        },
+        {
+          "SettingId": "6c931d7e-ff11-4f78-9d32-fd5128540ea2", //Color Filters
+          "SettingNameKey": "COLOR_FILTERS",
+          "SettingNameValue": "Color Filters",
+          "SettingDescriptionKey": "COLOR_FILTERS",
+          "SettingDescriptionValue": "Color Filters",
+          "Selected": "true"
+        },
+        {
+          "SettingId": "9c786475-3b49-4c53-9ffd-0d305b219c6f", //Magnifier
+          "SettingNameKey": "MAGNIFIER",
+          "SettingNameValue": "Magnifier",
+          "SettingDescriptionKey": "MAGNIFIER",
+          "SettingDescriptionValue": "Magnifier",
+          "Selected": "true"
+        },
+        {
+          "SettingId": "43bf13ed-e343-44ef-82a9-a8efa8f40e9b", //Sticky keys
+          "SettingNameKey": "STICKY_KEYS",
+          "SettingNameValue": "Sticky Keys",
+          "SettingDescriptionKey": "STICKY_KEYS",
+          "SettingDescriptionValue": "Sticky keys",
+          "Selected": "true"
+        }
+
+      ]
+    },
+    {
+      "GroupId": "07b32a18-1cbf-4c58-9e4b-d0d377b6b51d",
+      "GroupNameValue": "User Control",
+      "GroupNameKey": "USER_CONTROL",
+      "GroupDescriptionValue": "Mouse, Keyboard, Sound Settings, Command Prompt",
+      "GroupDescriptionKey": "MOUSE_KEYBOARD_SOUND_COMMAND_PROMPT",
+      "Selected": "true",
+      "SubSettings": [
+        {
+          "SettingId": "47ca525a-6060-44c2-9a64-19515a3758c1",
+          "SettingNameKey": "MOUSE",
+          "SettingNameValue": "Mouse",
+          "SettingDescriptionKey": "MOUSE_CURSOR_SWAP_BUTTON",
+          "SettingDescriptionValue": "Mouse cursor, Mouse swap button",
+          "selected": "true"
+        },
+        {
+          "SettingId": "8929a36e-33e9-4b1d-a5cb-dca251ede039",
+          "SettingNameKey": "SOUND",
+          "SettingNameValue": "Sound",
+          "SettingDescriptionKey": "SOUND",
+          "SettingDescriptionValue": "Sound",
+          "selected": "true"
+        },
+        {
+          "SettingId": "cc053712-344f-4d75-9888-39a63bc1ef07",
+          "SettingNameKey": "KEYBOARD",
+          "SettingNameValue": "Keyboard",
+          "SettingDescriptionKey": "KEYBOARD_DELAY_SPEED_CURSOR_BLINK_RATE",
+          "SettingDescriptionValue": "Keyboard Delay, Keyboard Speed, Cursor Blink Rate",
+          "selected": "true"
+        }
+
+      ]
+    },
+    {
+      "GroupId": "186e294a-1875-45ff-bf48-3e9d54a32fd2",
+      "GroupNameValue": "Appearance and Display",
+      "GroupNameKey": "APPEARANCE_DISPLAY",
+      "GroupDescriptionValue": "Wallpaper, Folder Options, Taskbar settings,Colors",
+      "GroupDescriptionKey": "WALLPAPER_FOLDER_OPTIONS_TASKBAR_COLORS",
+      "Selected": "true",
+      "SubSettings": [
+        {
+          "SettingId": "217d6d87-97f9-4418-ad7b-12df0cebf1a2",
+          "SettingNameKey": "WALLPAPER",
+          "SettingNameValue": "Wallpaper",
+          "SettingDescriptionKey": "WALLPAPER_WALLPAPER_STYLE_TILE_WALLPAPER_BACKGROUND_TYPE",
+          "SettingDescriptionValue": "Wallpaper, Wallpaper Style, Tile Wallpaper, Background Type",
+          "selected": "true"
+        },
+        {
+          "SettingId": "70ea8d47-595e-40f0-b66d-ddc0306fe012",
+          "SettingNameKey": "FOLDER_OPTIONS",
+          "SettingNameValue": "Folder Options",
+          "SettingDescriptionKey": "HIDDEN_FILES_ITEM_CHECK_BOXES_FILE_NAME_EXTENSIONS",
+          "SettingDescriptionValue": "Hidden Files, Item Check Boxes, File Name Extensions",
+          "selected": "true"
+        },
+        {
+          "SettingId": "45ed9f67-684t-50g0-d77b-bbd0508ee092",
+          "SettingNameKey": "COLORS",
+          "SettingNameValue": "Colors",
+          "SettingDescriptionKey": "WINDOWS_COLORS_TRANSPERENCY_EFFECTS_DEFAULT_APP_MODE_ACCENT_COLOR",
+          "SettingDescriptionValue": "Windows Colors,Transperency effects, Default App mode, Accent Color",
+          "selected": "true"
+        },
+        {
+          "SettingId": "252d67e7-d7fa-4488-b0ad-f181cddd8c1b",
+          "SettingNameKey": "TASKBAR_SETTINGS",
+          "SettingNameValue": "Taskbar Settings",
+          "SettingDescriptionKey": "TASKBAR_SETTINGS",
+          "SettingDescriptionValue": "Taskbar Settings",
+          "selected": "true"
+        }
+      ]
+    },
+    {
+      "GroupId": "373ac08b-effe-4e74-93c2-e30d355aa2d2",
+      "GroupNameValue": "Hardware settings",
+      "GroupNameKey": "HARDWARE_SETTINGS",
+      "GroupDescriptionValue": "Phone and Modem,Fax Options",
+      "GroupDescriptionKey": "PHONE_AND_MODEM_FAX OPTIONS",
+      "Selected": "true",
+      "SubSettings": [
+        {
+          "SettingId": "4e21b816-8b53-4404-bf13-35ff1cbc0ccb",
+          "SettingNameKey": "PHONE_MODEM",
+          "SettingNameValue": "Phone and Modem",
+          "SettingDescriptionKey": "PHONE_MODEM",
+          "SettingDescriptionValue": "Phone and Modem",
+          "selected": "true"
+        },
+        {
+          "SettingId": "d9cd2a29-48ba-41ab-a758-d64292dc2b60",
+          "SettingNameKey": "FAX_OPTIONS",
+          "SettingNameValue": "Fax Options",
+          "SettingDescriptionKey": "FAX_OPTIONS",
+          "SettingDescriptionValue": "Fax Options",
+          "selected": "true"
+        }
+      ]
+    },
+    {
+      "GroupId": "498be22b-fb48-4c5e-9261-8308ef583fbf",
+      "GroupNameValue": "Browser Bookmarks",
+      "GroupNameKey": "Browser Bookmarks",
+      "GroupDescriptionValue": "Internet Explorer Favorites, Google Chrome Bookmarks, Mozilla Firefox Bookmarks",
+      "GroupDescriptionKey": "INTERNET EXPLORER FAVORITES, GOOGLE CHROME BOOKMARKS, MOZILLA FIREFOX BOOKMARKS",
+      "Selected": "true",
+      "SubSettings": [
+        {
+          "SettingId": "5fcc69ce-bdc3-4be7-8053-66326f11c355", // IE
+          "SettingNameKey": "INTERNET EXPLORER FAVORITES",
+          "SettingNameValue": "Internet Explorer Favorites",
+          "SettingDescriptionKey": "INTERNET_EXPLORER_FAVORITES",
+          "SettingDescriptionValue": "Internet explorer favorites",
+          "selected": "true"
+        },
+        {
+          "SettingId": "3rdf89be-dcb7-7eb4-9302-888247g22b466", // Google Chrome
+          "SettingNameKey": "GOOGLE CHROME BOOKMARKS",
+          "SettingNameValue": "Google Chrome Bookmarks",
+          "SettingDescriptionKey": "GOOGLE_CHROME_BOOKMARKS",
+          "SettingDescriptionValue": "Google Chrome Bookmarks",
+          "selected": "true"
+        },
+		{
+          "SettingId": "3aaf69cc-nzk7-3af5-7685-777287g98b547", // Mozilla Firefox
+          "SettingNameKey": "MOZILLA FIREFOX BOOKMARKS",
+          "SettingNameValue": "Mozilla Firefox Bookmarks",
+          "SettingDescriptionKey": "MOZILLA_FIREFOX_BOOKMARKS",
+          "SettingDescriptionValue": "Mozilla Firefox Bookmarks",
+          "selected": "true"
+        }
+      ]
+    },
+
+
+    {
+      "GroupId": "f0d1dd55-0caf-4444-8948-0d77805f16ab",
+      "GroupNameValue": " Date and Time",
+      "GroupNameKey": "DATE_TIME",
+      "GroupDescriptionValue": "Additional Calendars, Additional Clocks, User Locale",
+      "GroupDescriptionKey": "ADDITIONAL_CALENDARS_ADDITIONAL_CLOCKS_USER_LOCALE",
+      "Selected": "true",
+      "SubSettings": [
+        {
+          "SettingId": "b413bc99-d427-44fc-93e8-3189d1a30ec1",
+          "SettingNameKey": "ADDITIONAL_CLOCKS",
+          "SettingNameValue": "Additional Clocks",
+          "SettingDescriptionKey": "ADDITIONAL_CLOCKS",
+          "SettingDescriptionValue": "Additional Clocks",
+          "selected": "true"
+        },
+        {
+          "SettingId": "d10ecdfe-de19-46ba-a62a-372b3db9dc7c",
+          "SettingNameKey": "ADDITIONAL_CALENDARS",
+          "SettingNameValue": "Additional Calendars",
+          "SettingDescriptionKey": "ADDITIONAL_CALENDARS",
+          "SettingDescriptionValue": "Additional Calendars",
+          "selected": "true"
+        },
+        {
+          "SettingId": "e261db45-44d6-4aad-9f13-cbfb6df15363",
+          "SettingNameKey": "USER_LOCALE",
+          "SettingNameValue": "User Locale",
+          "SettingDescriptionKey": "LOCALE_REGIONAL_FORMAT_DATA",
+          "SettingDescriptionValue": "Locale,Regional format data",
+          "selected": "true"
+        }
+
+      ]
+    }
+  ]
+}

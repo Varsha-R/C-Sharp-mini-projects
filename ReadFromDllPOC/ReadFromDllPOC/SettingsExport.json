@@ -1,0 +1,360 @@
+[
+  {
+    "SettingId": "47ca525a-6060-44c2-9a64-19515a3758c1", //Mouse
+    "SettingNameKey": "MOUSE",
+    "SettingNameValue": "Mouse",
+    "SettingDescriptionKey": "MOUSE_CURSOR_SWAP_BUTTON",
+    "SettingDescription": "Mouse cursor, Mouse swap button",
+    "GroupId": "07b32a18-1cbf-4c58-9e4b-d0d377b6b51d",
+    "GroupName": "User Control",
+    "GruopNameKey": "USER_CONTROL",
+    "GroupDescription": "Mouse, Keyboard, Sound Settings, Command Prompt",
+    "GroupDescriptionKey": "MOUSE_KEYBOARD_SOUND_COMMAND_PROMPT",
+    "Registry": [
+    ],
+    "SPI": true
+
+  },
+  {
+    "SettingId": "217d6d87-97f9-4418-ad7b-12df0cebf1a2", // wallpaper
+    "SettingNameKey": "WALLPAPER",
+    "SettingNameValue": "Wallpaper",
+    "SettingDescriptionKey": "WALLPAPER_WALLPAPER_STYLE_TILE_WALLPAPER_BACKGROUND_TYPE",
+    "SettingDescription": "Wallpaper, Wallpaper Style, Tile Wallpaper, Background Type",
+    "GroupId": "186e294a-1875-45ff-bf48-3e9d54a32fd2",
+    "GroupName": "Appearance and Display",
+    "GroupNameKey": "APPEARANCE_DISPLAY",
+    "GroupDescription": "Wallpaper, Folder Options, Taskbar settings, Colors",
+    "GroupDescriptionKey": "WALLPAPER_FOLDER_OPTIONS_TASKBAR_COLORS",
+    "Registry": [
+
+    ],
+    "SPI": true
+
+  },
+  {
+    "SettingId": "70ea8d47-595e-40f0-b66d-ddc0306fe012", // folder options
+    "SettingNameKey": "FOLDER_OPTIONS",
+    "SettingNameValue": "Folder Options",
+    "SettingDescriptionKey": "HIDDEN_FILES_ITEM_CHECK_BOXES_FILE_NAME_EXTENSIONS",
+    "SettingDescription": "Hidden Files, Item Check Boxes, File Name Extensions",
+    "GroupId": "186e294a-1875-45ff-bf48-3e9d54a32fd2",
+    "GroupName": "Appearance and Display",
+    "GroupNameKey": "APPEARANCE_DISPLAY",
+    "GroupDescription": "Wallpaper, Folder Options, Taskbar settings, Colors",
+    "GroupDescriptionKey": "WALLPAPER_FOLDER_OPTIONS_TASKBAR_COLORS",
+    "Registry": [
+      "\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+      "\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CabinetState",
+	  "\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Search\\Preferences",
+	  "\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Search\\PrimaryProperties\\UnindexedLocations",
+	  "\\Software\\Classes\\CLSID\\{031E4825-7B94-4dc3-B131-E946B44C8DD5}",
+	  "\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Modules\\GlobalSettings\\Sizer"
+
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "45ed9f67-684t-50g0-d77b-bbd0508ee092", // Colors
+    "SettingNameKey": "Colors",
+    "SettingNameValue": "Colors",
+    "SettingDescriptionKey": "WINDOWS_COLORS_TRANSPERENCY_EFFECTS_DEFAULT_APP_MODE_ACCENT_COLOR",
+    "SettingDescription": "Windows Colors,Transperency effects, Default App mode, Accent Color",
+    "GroupId": "186e294a-1875-45ff-bf48-3e9d54a32fd2",
+    "GroupName": "Appearance and Display",
+    "GroupNameKey": "APPEARANCE_DISPLAY",
+    "GroupDescription": "Wallpaper, Folder Options, Taskbar settings,Colors",
+    "GroupDescriptionKey": "WALLPAPER_FOLDER_OPTIONS_TASKBAR_COLORS",
+    "Registry": [
+      "\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize",
+      "\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Accent"
+    ],
+    "SPI": false
+  },
+
+  {
+    "SettingId": "8929a36e-33e9-4b1d-a5cb-dca251ede039", // sound
+    "SettingNameKey": "SOUND",
+    "SettingNameValue": "Sound",
+    "SettingDescriptionKey": "SOUND",
+    "SettingDescription": "Sound",
+    "GroupId": "07b32a18-1cbf-4c58-9e4b-d0d377b6b51d",
+    "GroupName": "User Control",
+    "GruopNameKey": "USER_CONTROL",
+    "GroupDescription": "Mouse, Keyboard, Sound Settings, Command Prompt",
+    "GroupDescriptionKey": "MOUSE_KEYBOARD_SOUND_COMMAND_PROMPT",
+    "Registry": [
+      "\\AppEvents\\Schemes\\Apps\\.Default",
+	  "\\AppEvents\\Schemes\\Apps\\Explorer",
+	  "\\AppEvents\\Schemes\\Apps\\sapisvr",
+      "\\AppEvents\\Schemes\\Names",
+      "\\Software\\Microsoft\\Multimedia\\Audio",
+	  "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Authentication\\LogonUI\\BootAnimation"
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "5fcc69ce-bdc3-4be7-8053-66326f11c355", // IE
+    "SettingNameKey": "INTERNET_EXPLORER",
+    "SettingNameValue": "Internet Explorer",
+    "SettingDescriptionKey": "INTERNET_EXPLORER",
+    "SettingDescription": "Internet explorer",
+    "GroupId": "498be22b-fb48-4c5e-9261-8308ef583fbf",
+    "GroupName": "Browser Bookmarks",
+    "GroupNameKey": "BROWSER_BOOKMARKS",
+    "GroupDescription": "Internet Explorer Favorites, Google Chrome Bookmarks, Mozilla Firefox Bookmarks",
+    "GroupDescriptionKey": "INTERNET_EXPLORER_FAVORITES_GOOGLE_CHROME_BOOKMARKS_MOZILLA_FIREFOX_BOOKMARKS",
+    "Registry": [
+
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "3rdf89be-dcb7-7eb4-9302-888247g22b466", // Google Chrome
+    "SettingNameKey": "GOOGLE CHROME BOOKMARKS",
+    "SettingNameValue": "Google Chrome Bookmarks",
+    "SettingDescriptionKey": "GOOGLE_CHROME_BOOKMARKS",
+    "SettingDescription": "Google Chrome Bookmarks",
+    "GroupId": "498be22b-fb48-4c5e-9261-8308ef583fbf",
+    "GroupName": "Browser Bookmarks",
+    "GroupNameKey": "BROWSER_BOOKMARKS",
+    "GroupDescription": "Internet Explorer Favorites, Google Chrome Bookmarks, Mozilla Firefox Bookmarks",
+    "GroupDescriptionKey": "INTERNET_EXPLORER_FAVORITES_GOOGLE_CHROME_BOOKMARKS_MOZILLA_FIREFOX_BOOKMARKS",
+    "Registry": [
+
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "3aaf69cc-nzk7-3af5-7685-777287g98b547", // Mozilla Firefox
+    "SettingNameKey": "MOZILLA FIREFOX BOOKMARKS",
+    "SettingNameValue": "Mozilla Firefox Bookmarks",
+    "SettingDescriptionKey": "MOZILLA_FIREFOX_BOOKMARKS",
+    "SettingDescription": "Mozilla Firefox Bookmarks",
+    "GroupId": "498be22b-fb48-4c5e-9261-8308ef583fbf",
+    "GroupName": "Browser Bookmarks",
+    "GroupNameKey": "BROWSER_BOOKMARKS",
+    "GroupDescription": "Internet Explorer Favorites, Google Chrome Bookmarks, Mozilla Firefox Bookmarks",
+    "GroupDescriptionKey": "INTERNET_EXPLORER_FAVORITES_GOOGLE_CHROME_BOOKMARKS_MOZILLA_FIREFOX_BOOKMARKS",
+    "Registry": [
+
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "cc053712-344f-4d75-9888-39a63bc1ef07", // keyboard
+    "SettingNameKey": "KEYBOARD",
+    "SettingNameValue": "Keyboard",
+    "SettingDescriptionKey": "KEYBOARD_DELAY_SPEED_CURSOR_BLINK_RATE",
+    "SettingDescription": "Keyboard Delay, Keyboard Speed, Cursor Blink Rate",
+    "GroupId": "07b32a18-1cbf-4c58-9e4b-d0d377b6b51d",
+    "GroupName": "User Control",
+    "GruopNameKey": "USER_CONTROL",
+    "GroupDescription": "Mouse, Keyboard, Sound Settings, Command Prompt",
+    "GroupDescriptionKey": "MOUSE_KEYBOARD_SOUND_COMMAND_PROMPT",
+    "Registry": [
+      "\\Control Panel\\Keyboard"
+    ],
+    "SPI": true
+
+  },
+  {
+    "SettingId": "4e21b816-8b53-4404-bf13-35ff1cbc0ccb", // phone modem
+    "SettingNameKey": "PHONE_MODEM",
+    "SettingNameValue": "Phone and Modem",
+    "SettingDescriptionKey": "PHONE_MODEM",
+    "SettingDescription": "Phone and Modem",
+    "GroupId": "373ac08b-effe-4e74-93c2-e30d355aa2d2",
+    "GroupName": "Hardware settings",
+    "GroupNameKey": "HARDWARE_SETTINGS",
+    "GroupDescription": "Phone and Modem,Fax Options",
+    "GroupDescriptionKey": "PHONE_AND_MODEM_FAX_OPTIONS",
+    "Registry": [
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Telephony\\Locations"
+
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "d9cd2a29-48ba-41ab-a758-d64292dc2b60", // Fax
+    "SettingNameKey": "FAX_OPTIONS",
+    "SettingNameValue": "Fax Options",
+    "SettingDescriptionKey": "FAX_OPTIONS",
+    "SettingDescription": "Fax Options",
+    "GroupId": "373ac08b-effe-4e74-93c2-e30d355aa2d2",
+    "GroupName": "Hardware settings",
+    "GroupNameKey": "HARDWARE_SETTINGS",
+    "GroupDescription": "Phone and Modem,Fax Options",
+    "GroupDescriptionKey": "PHONE_AND_MODEM_FAX_OPTIONS",
+    "Registry": [
+      "\\Software\\Microsoft\\Fax"
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "252d67e7-d7fa-4488-b0ad-f181cddd8c1b", // Taskbar_Settings
+    "SettingNameKey": "TASKBAR_SETTINGS",
+    "SettingNameValue": "Taskbar Settings",
+    "SettingDescriptionKey": "TASKBAR_SETTINGS",
+    "SettingDescription": "Taskbar Settings",
+    "GroupId": "186e294a-1875-45ff-bf48-3e9d54a32fd2",
+    "GroupName": "Appearance and Display",
+    "GroupNameKey": "APPEARANCE_DISPLAY",
+    "GroupDescription": "Wallpaper, Folder Options, Taskbar settings, Colors",
+    "GroupDescriptionKey": "WALLPAPER_FOLDER_OPTIONS_TASKBAR_COLORS",
+    "Registry": [
+      "\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+      "\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Streams\\Desktop",
+      "\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StuckRects3",
+      "\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Taskband",
+      "\\Software\\Microsoft\\Windows\\CurrentVersion\\Search\\Flighting"
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "b413bc99-d427-44fc-93e8-3189d1a30ec1", // AdditionalClocks
+    "SettingNameKey": "ADDITIONAL_CLOCKS",
+    "SettingNameValue": "Additional Clocks",
+    "SettingDescriptionKey": "ADDITIONAL_CLOCKS",
+    "SettingDescriptionValue": "Additional Clocks",
+    "GroupId": "f0d1dd55-0caf-4444-8948-0d77805f16ab",
+    "GroupNameValue": " Date and Time",
+    "GroupNameKey": "DATE_TIME",
+    "GroupDescriptionValue": "Additional Calendars, Additional Clocks, Langauge, User Locale",
+    "GroupDescriptionKey": "ADDITIONAL_CALENDARS_ADDITIONAL_CLOCKS_LANGUAGE_USER_LOCALE",
+    "Registry": [
+      "\\Control Panel\\TimeDate\\AdditionalClocks"
+
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "d10ecdfe-de19-46ba-a62a-372b3db9dc7c", // AdditionalCalendars
+    "SettingNameKey": "ADDITIONAL_CALENDARS",
+    "SettingNameValue": "Additional Calendars",
+    "SettingDescriptionKey": "ADDITIONAL_CALENDARS",
+    "SettingDescriptionValue": "Additional Calendars",
+    "GroupId": "f0d1dd55-0caf-4444-8948-0d77805f16ab",
+    "GroupNameValue": " Date and Time",
+    "GroupNameKey": "DATE_TIME",
+    "GroupDescriptionValue": "Additional Calendars, Additional Clocks, Langauge, User Locale",
+    "GroupDescriptionKey": "ADDITIONAL_CALENDARS_ADDITIONAL_CLOCKS_LANGUAGE_USER_LOCALE",
+    "Registry": [
+      "\\Software\\Microsoft\\Windows\\CurrentVersion\\CloudStore\\Store\\Cache\\DefaultAccount\\$$windows.data.lunarcalendar\\Current"
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "e261db45-44d6-4aad-9f13-cbfb6df15363", // Locale
+    "SettingNameKey": "USER_LOCALE",
+    "SettingNameValue": "User Locale",
+    "SettingDescriptionKey": "LOCALE_REGIONAL_FORMAT_DATA",
+    "SettingDescriptionValue": "Locale,Regional format data",
+    "GroupId": "f0d1dd55-0caf-4444-8948-0d77805f16ab",
+    "GroupNameValue": " Date and Time",
+    "GroupNameKey": "DATE_TIME",
+    "GroupDescriptionValue": "Additional Calendars, Additional Clocks, Langauge, User Locale",
+    "GroupDescriptionKey": "ADDITIONAL_CALENDARS_ADDITIONAL_CLOCKS_LANGUAGE_USER_LOCALE_TIME_ZONE",
+    "Registry": [
+      "\\Control Panel\\International"
+    ],
+    "SPI": false
+  },
+ 
+
+  {
+    "SettingId": "9fbd1757-55fe-440f-ad3d-4bc61ad51385", // High Contrast
+    "SettingNameKey": "HIGH_CONTRAST",
+    "SettingNameValue": "High Contrast",
+    "SettingDescriptionKey": "HIGH_CONTRAST",
+    "SettingDescription": "High Contrast",
+    "GroupId": "68acf786-288c-4ec2-a4c9-cd6a2cc4bb53",
+    "GroupName": "Accessibility",
+    "GroupNameKey": "ACCESSIBILITY",
+    "GroupDescription": "High Contrast, Sticky keys, Toggle keys, Color filters, Magnifier",
+    "GroupDescriptionKey": "HIGH_CONTRAST_STICKY_KEYS_TOGGLE_KEYS_COLOR_FILTERS_MAGNIFIER",
+    "Registry": [
+    ],
+    "SPI": true
+
+  },
+  {
+    "SettingId": "8gfn9238-21gh-025m-ws7r-5cd72be62486", // Filter Key
+    "SettingNameKey": "FILTER_KEY",
+    "SettingNameValue": "Filter Key",
+    "SettingDescriptionKey": "FILTER_KEY",
+    "SettingDescription": "Filter Key",
+    "GroupId": "68acf786-288c-4ec2-a4c9-cd6a2cc4bb53",
+    "GroupName": "Accessibility",
+    "GroupNameKey": "ACCESSIBILITY",
+    "GroupDescription": "High Contrast, Sticky keys, Toggle keys, Color filters, Magnifier,Filter keys",
+    "GroupDescriptionKey": "HIGH_CONTRAST_STICKY_KEYS_TOGGLE_KEYS_COLOR_FILTERS_MAGNIFIER_FILTER_KEYS",
+    "Registry": [
+    ],
+    "SPI": true
+
+  },
+  {
+    "SettingId": "43bf13ed-e343-44ef-82a9-a8efa8f40e9b", //Sticky keys
+    "SettingNameKey": "STICKY_KEYS",
+    "SettingNameValue": "Sticky Keys",
+    "SettingDescriptionKey": "STICKY_KEYS",
+    "SettingDescription": "Sticky keys",
+    "GroupId": "68acf786-288c-4ec2-a4c9-cd6a2cc4bb53",
+    "GroupName": "Accessibility",
+    "GroupNameKey": "ACCESSIBILITY",
+    "GroupDescription": "High Contrast, Sticky keys, Toggle keys, Color filters, Magnifier",
+    "GroupDescriptionKey": "HIGH_CONTRAST_STICKY_KEYS_TOGGLE_KEYS_COLOR_FILTERS_MAGNIFIER",
+    "Registry": [
+    ],
+    "SPI": true
+  },
+  {
+    "SettingId": "83f7b817-5b7e-411d-851b-33b4b5f1f924", //Toggle keys
+    "SettingNameKey": "TOGGLE_KEYS",
+    "SettingNameValue": "Toggle Keys",
+    "SettingDescriptionKey": "TOGGLE_KEYS",
+    "SettingDescription": "Toggle Keys",
+    "GroupId": "68acf786-288c-4ec2-a4c9-cd6a2cc4bb53",
+    "GroupName": "Accessibility",
+    "GroupNameKey": "ACCESSIBILITY",
+    "GroupDescription": "High Contrast, Sticky keys, Toggle keys, Color filters, Magnifier",
+    "GroupDescriptionKey": "HIGH_CONTRAST_STICKY_KEYS_TOGGLE_KEYS_COLOR_FILTERS_MAGNIFIER",
+    "Registry": [
+    ],
+    "SPI": true
+
+  },
+  {
+    "SettingId": "6c931d7e-ff11-4f78-9d32-fd5128540ea2", //Color Filters
+    "SettingNameKey": "COLOR_FILTERS",
+    "SettingNameValue": "Color Filters",
+    "SettingDescriptionKey": "COLOR_FILTERS",
+    "SettingDescription": "Color Filters",
+    "GroupId": "68acf786-288c-4ec2-a4c9-cd6a2cc4bb53",
+    "GroupName": "Accessibility",
+    "GroupNameKey": "ACCESSIBILITY",
+    "GroupDescription": "High Contrast, Sticky keys, Toggle keys, Color filters, Magnifier",
+    "GroupDescriptionKey": "HIGH_CONTRAST_STICKY_KEYS_TOGGLE_KEYS_COLOR_FILTERS_MAGNIFIER",
+    "Registry": [
+      "\\Software\\Microsoft\\ColorFiltering"
+    ],
+    "SPI": false
+  },
+  {
+    "SettingId": "9c786475-3b49-4c53-9ffd-0d305b219c6f", //Magnifier
+    "SettingNameKey": "MAGNIFIER",
+    "SettingNameValue": "Magnifier",
+    "SettingDescriptionKey": "MAGNIFIER",
+    "SettingDescription": "Magnifier",
+    "GroupId": "68acf786-288c-4ec2-a4c9-cd6a2cc4bb53",
+    "GroupName": "Accessibility",
+    "GroupNameKey": "ACCESSIBILITY",
+    "GroupDescription": "High Contrast, Sticky keys, Toggle keys, Color filters, Magnifier",
+    "GroupDescriptionKey": "HIGH_CONTRAST_STICKY_KEYS_TOGGLE_KEYS_COLOR_FILTERS_MAGNIFIER",
+    "Registry": [
+      "\\Software\\Microsoft\\ScreenMagnifier"
+    ],
+    "SPI": false
+  }
+]

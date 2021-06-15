@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="RebootPOC.ExcaliburWrapper">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAEAIAA=</HashCode>
+      <FileName>ExcaliburWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RebootPOC.RebootHelper">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="RebootPOC.RebootHelper.ExitWindows" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RebootHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="RebootPOC.RebootHelper.ShutdownReason" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RebootHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="RebootPOC.RebootHelper.LUID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RebootHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="RebootPOC.RebootHelper.LUID_AND_ATTRIBUTES" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RebootHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="RebootPOC.RebootHelper.TOKEN_PRIVILEGES" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RebootHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAADAAAAAIAAIAACAAAABgAAAAAEACAAAAAAA=</HashCode>
+      <FileName>RebootHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
