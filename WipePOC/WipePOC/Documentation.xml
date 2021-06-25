@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<docs>
+  <members name="Wipe">
+    <Wipe>
+      <summary>
+        <c>Wipe</c> contains two approaches for Erase feature. 
+        Wipe class inherits from DeviceIO class.
+      </summary>
+      <remarks>
+        <para>Contains Trim approach and overwriting sectors using the disk information methods.</para>
+      </remarks>
+    </Wipe>
+    <PerformTrim>
+      <summary>
+        The PerformTrim method locates and consolidates fragmented files on local volumes.        
+      </summary>
+      <param name="driveLetter">The Volume label</param>
+      <returns>
+         true on successful defragmentation else false.
+      </returns>
+    </PerformTrim>
+    <CheckTrim>
+      <summary>
+         CheckTrim Checks for trim descriptor.
+      </summary>
+      <param name="DiskIndex">Physical disk index</param>
+      <returns>
+         true if trim is enabled else false.
+      </returns>
+    </CheckTrim>
+    <GetFreePartitionSpace>
+      <summary>
+       It gets the remaining space in each of the drives.
+      </summary>
+      <param name="PartName"></param>
+      <returns>
+        The percentage of the remaining space.
+      </returns>
+    </GetFreePartitionSpace>
+    <GetPartitionName>
+      <summary>
+        GetPartitionName gets the name of each volumes on the disk.
+      </summary>
+      <param name="DeviceID">Drive name</param>
+      <returns>
+        Volume names.
+      </returns>
+    </GetPartitionName>
+    <RetrievDiskInfo>
+      <summary>
+        RetriveDiskInfo gets all the disk information to calculate offset values of the volumes,
+        to exclude the bootable partition and if trim is supported or not.
+      </summary>
+    </RetrievDiskInfo>
+    <DisplayDiskInfo>
+      <summary>
+        Displays all the disk information retrieved.
+      </summary>
+    </DisplayDiskInfo>
+  </members>
+  <members name ="DeviceIO">
+    <DeviceIO>
+      <summary>
+        DeviceIO class contains all disk write/read related functions from kernel32.dll and the
+        macros are explicitely defined with their hex values.
+      </summary>
+    </DeviceIO>
+    <OpenFileHandle>
+      <summary>
+         OpenFileObject opens a safe file handle for the drive with desired access.
+        (Acts like a constructor)
+      </summary>
+      <param name="diskIndex"></param>
+      <param name="desiredAccess">File Permission</param>
+    </OpenFileHandle>
+    <OpenFile>
+      <summary>
+         Opens file handle for the required drive.
+      </summary>
+      <param name="id"></param>
+      <param name="desiredAccess">File Permission</param>
+      <returns>
+        Pointer to the drive
+      </returns>
+    </OpenFile>
+    <Read>
+      <summary>
+        Function to Read Data into the Buffer from disk.
+      </summary>
+      <param name="readBuffer">bytes read from the current disk.</param>
+      <param name="readOffset"> byte offset in readBuffer at which to begin storing the data read from the current stream.</param>
+      <param name="readCount">The maximum number of bytes to be read from the current stream.</param>
+      <returns>
+        Number of bytes read into the buffer.
+      </returns>
+    </Read>
+    <Write>
+      <summary>
+         Function to Write Data Pattern that is in buffer to disk sectors.
+      </summary>
+      <param name="writeBuffer">The buffer that has the pattern of data to write</param>
+      <param name="writeOffset">The byte offset in writeBuffer from which to begin copying bytes to the stream</param>
+      <param name="writeCount">The maximum number of bytes to write</param>
+    </Write>
+    <UnmountVolume>
+      <summary>
+         Function to Unmount Volumes.
+      </summary>
+      <param name="drive">Volume label</param>
+      <returns>
+        true on successfull unmount of the volume, else false.
+      </returns>
+    </UnmountVolume>
+    <LockVolume>
+      <summary>
+        Function to Lock Volumes.
+      </summary>
+      <param name="drive">Volume label</param>
+      <returns>
+        true on successful lock of the volumes,else false.
+      </returns>
+    </LockVolume>
+  </members>
+</docs>
